@@ -1,0 +1,22 @@
+{
+	"name": "chatbot-teste",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"patch": "yarn version --patch",
+		"minor": "yarn version --minor",
+		"major": "yarn version --major",
+		"build": "tsc --p ./",
+		"dev": "ts-node src"
+	},
+	"dependencies": {
+		"node-telegram-bot-api": "^0.53.0"
+	},
+	"devDependencies": {
+		"@types/node": "^15.12.5",
+		"@types/node-telegram-bot-api": "^0.51.1",
+		"ts-node": "^10.0.0",
+		"typescript": "^4.3.4"
+	}
+}
