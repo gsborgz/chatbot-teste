@@ -5,6 +5,8 @@ Baixar NodeJS e Yarn (```npm i -g yarn```)
 
 ```
 git clone https://github.com/gabrielSBorges/chatbot-teste.git
+```
+```
 yarn install
 ```
 
